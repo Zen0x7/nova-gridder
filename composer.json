@@ -1,0 +1,38 @@
+{
+    "name": "demency/nova-gridder",
+    "description": "A Laravel Nova Package for resource details grids.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "package",
+        "grids"
+    ],
+    "authors": [
+        {
+            "name": "Ian Torres",
+            "email": "iantorres@outlook.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3",
+        "laravel/nova": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demency\\NovaGridder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Demency\\NovaGridder\\NovaGridderServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
