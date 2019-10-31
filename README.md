@@ -51,7 +51,7 @@ class YourResource extends Resource {
                     'panelSize' => 'w-1/5', // Use field as box in a Panel
                     'additionalLabelClasses' => 'text-center',
                     'additionalContentClasses' => 'text-center py-2',
-                    'additionalPanelClasses' => '',
+                    'additionalPanelClasses' => '', // This remove the bottom background per field
                 ])
         ];
     }
