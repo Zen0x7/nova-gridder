@@ -4,7 +4,7 @@ This package allows customize your resource details using grid and class systems
 
 ## Example
 
-![Example]()
+![Example](https://github.com/demency/nova-gridder/blob/master/example.png)
 
 ## Requirements
 
