@@ -11,7 +11,7 @@ This package allows customize your resource details using grid and class systems
 This package requires:
 
 - PHP ^7.3.
-- Laravel Nova ^2.6.1.
+- Laravel Nova ^2.0 or ^3.0.
 
 ##  Installation
 
@@ -51,13 +51,18 @@ class YourResource extends Resource {
                     'panelSize' => 'w-1/5', // Use field as box in a Panel
                     'additionalLabelClasses' => 'text-center',
                     'additionalContentClasses' => 'text-center py-2',
-                    'additionalPanelClasses' => '', // This remove the bottom background per field
+                    'additionalPanelClasses' => '', // This remove the border-bottom per field
                 ])
         ];
     }
 ```
 
 ## Changelog
+
+### 1.0.1
+
+- Now support nova 3.0.
+- Some wrong type fixed.
 
 ### 1.0.0
 
